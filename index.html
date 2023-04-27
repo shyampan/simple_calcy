@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Roboto:wght@300&family=Signika&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="cont">
+        <h2>Simple Calculator</h2>
+
+        <div class="first">
+        <div >Number 1:</div>
+        <input type="text" class="one" id="k1" placeholder="Enter First Number">
+        </div>
+
+        <div class="second">
+        <div >Number 2:</div>
+        <input type="text" class="two" id="k2" placeholder="Enter Second Number">
+
+    </div>
+
+
+    <label for="op" class="choose">Choose Operation</label>
+    <br>
+    <select name="op" id="shyam">
+      <option value="Addtion" id="add">Addtion</option>
+      <option value="Substraction" id="minus">Substraction</option>
+      <option value="Multiplication" id="multiply">Multiplication</option>
+      <option value="Division" id="divide">Division</option>
+    </select> 
+
+    <br>
+    <br>
+    <button class="btn" id="button " onclick="ram()">Result</button>
+
+    <div id="ans"></div>
+    </div>
+
+
+
+    <script src="scirpt.js"></script>
+    
+</body>
+</html>
